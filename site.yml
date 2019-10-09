@@ -1,6 +1,7 @@
 ---
 
 - hosts: all
+  sudo: yes
   roles:
     - prepare_the_file
     - get_name
