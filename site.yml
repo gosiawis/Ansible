@@ -1,0 +1,9 @@
+---
+
+- hosts: all
+  roles:
+    - prepare_the_file
+    - get_name
+    - display_file
+  gather_facts: no
+  
