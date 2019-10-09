@@ -2,5 +2,5 @@
 
 - name: Write a name to the file
   lineinfile:
-    path: /etc/test_file/file_01
+    dest: /etc/test_file/file_01
     line: "{{ name }}"
