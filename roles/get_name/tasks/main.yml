@@ -1,1 +1,6 @@
 ---
+
+- name: Write a name to the file
+  lineinfile:
+    path: /etc/test_file/file_01.txt
+    line: "{{ name }}"

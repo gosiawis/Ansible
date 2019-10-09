@@ -1,1 +1,8 @@
 ---
+
+- name: Dislay the content of the file
+  shell: cat file_01.txt
+  args:
+    chdir: /etc/test_file/
+
+    
